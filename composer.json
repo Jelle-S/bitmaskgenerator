@@ -1,0 +1,19 @@
+{
+    "name": "jelle-s/bitmaskgenerator",
+    "description": "Generates all possible bitmasks with a minimum amount of positives (1's) and a certain length.",
+    "type": "library",
+    "require": {
+        "jelle-s/permutations": "^1.0"
+    },
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Jelle Sebreghts",
+            "email": "sebreghts.jelle@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+      "psr-4": {"Jelle_S\\Util\\BitMask\\": "src/"}
+    }
+}
