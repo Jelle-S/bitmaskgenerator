@@ -13,13 +13,24 @@ use Jelle_S\Util\BitMask\BitMaskGenerator;
 class BitMaskGeneratorTest extends TestCase {
 
   /**
-   * The bitmask generator
+   * The bitmask generator.
+   *
    * @var \Jelle_S\Util\BitMask\BitMaskGenerator
    */
   protected $generator;
 
+  /**
+   * The bitmask length.
+   *
+   * @var int
+   */
   protected $length;
 
+  /**
+   * The minimum amount of positives for the bitmask.
+   *
+   * @var int
+   */
   protected $minPositives;
 
   /**
@@ -34,6 +45,12 @@ class BitMaskGeneratorTest extends TestCase {
     $this->generator = new BitMaskGenerator($this->length, $this->minPositives);
   }
 
+  /**
+   * Calculates the number of possible masks.
+   *
+   * @return int
+   *   The number of possible masks.
+   */
   protected function getNumberOfPossibleMasks() {
     $mask_count = 0;
     for ($i = $this->minPositives; $i <= $this->length; $i++) {
@@ -42,6 +59,16 @@ class BitMaskGeneratorTest extends TestCase {
     return $mask_count;
   }
 
+  /**
+   * Calculates the factorial of a number.
+   *
+   * @param int $number
+   *   The number to calculate the factorial for.
+   *
+   * @return int
+   *   The factorial of the given number.
+   *
+   */
   protected function factorial($number) {
     $f = 1;
     for ($i = $number; $i>= 1; $i--) {
