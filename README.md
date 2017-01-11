@@ -1,6 +1,6 @@
 # BitMaskGenerator
 
-[![Build Status](https://travis-ci.org/Jelle-S/bitmaskgenerator.svg?branch=master)](https://travis-ci.org/Jelle-S/bitmaskgenerator) [![Code Climate](https://codeclimate.com/github/Jelle-S/bitmaskgenerator/badges/gpa.svg)](https://codeclimate.com/github/Jelle-S/bitmaskgenerator) [![Test Coverage](https://codeclimate.com/github/Jelle-S/bitmaskgenerator/badges/coverage.svg)](https://codeclimate.com/github/Jelle-S/bitmaskgenerator/coverage) [![Issue Count](https://codeclimate.com/github/Jelle-S/bitmaskgenerator/badges/issue_count.svg)](https://codeclimate.com/github/Jelle-S/bitmaskgenerator)
+[![Build Status](https://travis-ci.org/Jelle-S/bitmaskgenerator.svg?branch=develop)](https://travis-ci.org/Jelle-S/bitmaskgenerator) [![Code Climate](https://codeclimate.com/github/Jelle-S/bitmaskgenerator/badges/gpa.svg)](https://codeclimate.com/github/Jelle-S/bitmaskgenerator) [![Test Coverage](https://codeclimate.com/github/Jelle-S/bitmaskgenerator/badges/coverage.svg)](https://codeclimate.com/github/Jelle-S/bitmaskgenerator/coverage) [![Issue Count](https://codeclimate.com/github/Jelle-S/bitmaskgenerator/badges/issue_count.svg)](https://codeclimate.com/github/Jelle-S/bitmaskgenerator)
 
 Usage:
 ```php
